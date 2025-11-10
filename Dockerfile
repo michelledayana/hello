@@ -18,3 +18,4 @@ EXPOSE 5000
 
 # Comando de ejecución (Gunicorn recomendado)
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "server:app"]
+
